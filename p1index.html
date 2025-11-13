@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kaviarasu - Portfolio</title>
+    <link rel="stylesheet" href="p1style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- Navbar -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">Kaviarasu E</div>
+            <ul class="nav-links" id="menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#education">Education</a></a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#certifications">Certifications</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="Kaviarasu_E_Resume.pdf" download class="cv-nav-btn">Download CV</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">&#9776;</div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="home-section">
+        <h1>Hi, I'm <span class="highlight">Kaviarasu</span></h1>
+        <a href="#contact" class="btn">CONTACT</a>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I’m a BCA student specializing in AI and Data Science. I have experience in Python, Machine Learning, Data Analysis, and projects like Sentiment Analysis and Sports Performance Dashboards.passionate about artificial intelligence, eager to learn,explore new technologies, and contribute to innovative projects.</p>
+    </section>
+
+    <!-- Skills Section -->
+<section id="skills">
+  <h2>Skills</h2>
+  <div class="skills-container">
+    <div class="skill-card">
+      <i class="fas fa-code"></i>
+      <h3>Languages</h3>
+      <p>Python, SQL, R, HTML, CSS, JavaScript</p>
+    </div>
+    <div class="skill-card">
+      <i class="fas fa-tools"></i>
+      <h3>Tools & Platforms</h3>
+      <p>Google Colab, Jupyter Notebook, RStudio, VS Code, IBM Watson Studio</p>
+    </div>
+    <div class="skill-card">
+      <i class="fas fa-brain"></i>
+      <h3>Concepts</h3>
+      <p>Machine Learning, Data Analysis, Data Visualization, Data Structures</p>
+    </div>
+    <div class="skill-card">
+      <i class="fas fa-database"></i>
+      <h3>Database</h3>
+      <p>MySQL</p>
+    </div>
+  </div>
+</section>
+    <!--EducationSection-->
+    <section id="education">
+  <h2>Education</h2>
+  <div class="education-container">
+    <div class="edu-card">
+      <h3>Bachelor of Computer Application - Artificial Intelligence and Data Science</h3>
+      <p class="edu-institute">Dr. MGR Educational and Research University, Chennai</p>
+      <span class="edu-year">2023 - Present</span>
+    </div>
+
+    <div class="edu-card">
+      <h3>Higher Secondary (HSC) - CS & Mathematics</h3>
+      <p class="edu-institute">Radiance Matriculation Higher Secondary School, Chennai</p>
+      <span class="edu-year">2023</span>
+    </div>
+  </div>
+</section>
+
+    <!-- Projects Section -->
+<section id="projects">
+  <h2>Projects</h2>
+  <div class="projects-container">
+    <div class="project-card" data-project="project1">Sports & Games Player Performance and Fantasy Sports Analyzer</div>
+    <div class="project-card" data-project="project2">Live Weather Forecasting Webpage</div>
+    <div class="project-card" data-project="project3">Sentiment Analysis for Product Reviews</div>
+    <div class="project-card" data-project="project4">Password Generator</div>
+  </div>
+</section>
+
+<!-- Popup Modal -->
+<div id="projectModal" class="modal">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <h3 id="projectTitle"></h3>
+    <p id="projectSummary"></p>
+    <p><strong>Skills:</strong> <span id="projectSkills"></span></p>
+  </div>
+</div>
+
+<section id="certifications">
+    <h2>Certifications</h2>
+    <div class="cert-container">
+        <div class="cert-card">
+            <div class="cert-content">
+                <h3>Introduction to Python</h3>
+                <p class="issuer">IBM</p>
+            </div>
+        </div>
+        <div class="cert-card">
+            <div class="cert-content">
+                <h3>Machine Learning using Watson Studio</h3>
+                <p class="issuer">IBM</p>
+            </div>
+        </div>
+        <div class="cert-card">
+            <div class="cert-content">
+                <h3>Java Programming using VS Code</h3>
+                <p class="issuer">TN Advanced Technical Training Institute</p>
+            </div>
+        </div>
+        <div class="cert-card">
+            <div class="cert-content">
+                <h3>RAG in Action: Revolutionizing AI with Text, Vectors & Web Data</h3>
+                <p class="issuer">Here and Now AI</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- Contact Section -->
+<section id="contact">
+    <h2>Contact Me</h2>
+    <div class="contact-icons">
+        <a href=https://mail.google.com/mail/?view=cm&fs=1&to=kaviarasu302006@example.com" target="_blank" class="contact-icon">
+            <i class="fas fa-envelope"></i>
+        </a>
+        <a href="https://github.com/Kaviarasu55" target="_blank" class="contact-icon">
+            <i class="fab fa-github"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/kaviarasu-e-280a45305?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" class="contact-icon">
+            <i class="fab fa-linkedin"></i>
+        </a>
+    </div>
+</section>
+
+    <footer>
+        <p>&copy; 2025 Kaviarasu. All Rights Reserved.</p>
+    </footer>
+
+    <script src="p1script.js"></script>
+</body>
+</html>
